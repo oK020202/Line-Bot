@@ -1,0 +1,44 @@
+自治体番号,自治体名,胃がん,肺がん,大腸がん,乳がん,子宮頸がん,前立腺がん,口腔がん,満年齢or実年齢,URL
+0,大阪市,"[50,1,200]","[40,1,200]","[40,1,200]","[40,2,200]","[20,2,200]","[50,5,70]","[-1,-1,-1]",1,https://www.city.osaka.lg.jp/kenko/page/0000008503.html
+1,堺市,"[50,2,200]","[40,1,200]","[40,1,200]","[40,2,200]","[20,2,200]","[50,2,69]","[-1,-1,-1]",1,https://www.city.sakai.lg.jp/nishi/annai/gyoumuannai/hokencenter/seijin/kakushu.html
+2,岸和田市,"[40,1,200]","[40,1,200]","[40,1,200]","[40,2,200]","[20,2,200]","[-1,-1,-1]","[-1,-1,-1]",1,https://www.city.kishiwada.osaka.jp/soshiki/33/gankenshin3.html
+3,豊中市,"[50,2,200]","[40,1,200]","[40,1,200]","[40,2,200]","[20,2,200]","[50,1,200]","[-1,-1,-1]",1,https://www.city.toyonaka.osaka.jp/kenko/kenko_hokeneisei/kenshin/kenshin_top.html
+4,池田市,"[35,1,200]","[40,1,200]","[40,1,200]","[40,2,200]","[20,2,200]","[50,1,200]","[-1,-1,-1]",1,https://www.city.ikeda.osaka.jp/soshiki/kodomo/kenkozoshin/seijin/1415935034203.html
+5,吹田市,"[50,2,200]","[40,1,200]","[40,1,200]","[40,2,200]","[20,2,200]","[50,1,200]","[-1,-1,-1]",1,https://www.city.suita.osaka.jp/kenko/1018600/1018601/1018602/1018603/
+6,泉大津市,"[40,1,200]","[-1,-1,-1]","[40,1,200]","[40,2,200]","[20,1,200]","[50,1,200]","[-1,-1,-1]",1,https://www.city.izumiotsu.lg.jp/kurashi/seijinn/kensin/index.html
+7,高槻市,"[50,1,200]","[40,1,200]","[40,1,200]","[30,2,200]","[20,1,200]","[50,1,200]","[-1,-1,-1]",1,https://www.city.takatsuki.osaka.jp/life/3/30/168/
+8,貝塚市,"[40,1,200]","[40,1,200]","[40,1,200]","[40,2,200]","[20,1,200]","[-1,-1,-1]","[-1,-1,-1]",1,https://www.city.kaizuka.lg.jp/kakuka/kenkohukushi/kenkosuishin/menu/otonakenko/shikyu.html
+9,守口市,"[35,1,200]","[40,1,200]","[40,1,200]","[40,2,200]","[20,1,200]","[55,1,70]","[-1,-1,-1]",1,https://www.city.moriguchi.osaka.jp/kakukanoannai/kenkofukushibu/kenkosuishinka/kenkoiryo/seijinnokenkoshinsa/876.html
+10,枚方市,"[35,1,200]","[40,1,200]","[40,1,200]","[40,2,200]","[20,1,200]","[50,1,200]","[-1,-1,-1]",1,https://www.city.hirakata.osaka.jp/0000002044.html
+11,茨木市,"[40,1,200]","[40,1,200]","[40,1,200]","[40,2,200]","[20,1,200]","[55,1,200]","[-1,-1,-1]",1,https://www.city.ibaraki.osaka.jp/kikou/kenkoi/kenkou/menu/jigyo/kenkoshinsa/index.html
+12,八尾市,"[35,1,200]","[40,1,200]","[40,1,200]","[40,2,200]","[20,1,200]","[-1,-1,-1]","[-1,-1,-1]",1,https://www.city.yao.osaka.jp/0000042126.html
+13,泉佐野市,"[40,1,200]","[40,1,200]","[40,1,200]","[40,2,200]","[20,1,200]","[-1,-1,-1]","[-1,-1,-1]",1,https://www.city.izumisano.lg.jp/kakuka/kenkou/hoken/menu/adult/myhealth.html
+14,富田林市,"[40,1,200]","[40,1,200]","[40,1,200]","[40,2,200]","[20,1,200]","[-1,-1,-1]","[-1,-1,-1]",1,https://www.city.tondabayashi.lg.jp/soshiki/28/60121.html
+15,寝屋川市,"[40,1,200]","[40,1,200]","[40,1,200]","[40,2,200]","[20,2,200]","[-1,-1,-1]","[-1,-1,-1]",1,https://www.city.neyagawa.osaka.jp/organization_list/kenkou/kenkousuisin/seizin_kensin_nado/1377655580695.html
+16,河内⻑野市,"[40,1,200]","[40,1,200]","[40,1,200]","[40,2,200]","[20,1,200]","[-1,-1,-1]","[-1,-1,-1]",1,https://www.city.kawachinagano.lg.jp/soshiki/8/13974.html
+17,松原市,"[30,1,200]","[40,1,200]","[40,1,200]","[20,2,200]","[20,2,200]","[40,1,200]","[-1,-1,-1]",0,https://www.city.matsubara.lg.jp/soshiki/chiiki_hoken/2/1/2/index.html
+18,大東市,"[50,1,200]","[40,1,200]","[40,1,200]","[40,2,200]","[20,2,200]","[-1,-1,-1]","[-1,-1,-1]",0,https://www.city.daito.lg.jp/soshiki/27/1296.html
+19,和泉市,"[35,1,200]","[40,1,200]","[40,1,200]","[40,2,200]","[20,2,200]","[-1,-1,-1]","[-1,-1,-1]",1,https://www.city.osaka-izumi.lg.jp/lifeevent/kenko_iryo/shinsa/index.html
+20,箕面市,"[40,1,200]","[40,1,200]","[40,1,200]","[40,2,200]","[20,1,200]","[55,3,76]","[-1,-1,-1]",1,https://www.city.minoh.lg.jp/kenkou/gankenshin.html
+21,柏原市,"[30,1,200]","[40,1,200]","[40,1,200]","[30,2,200]","[20,2,200]","[-1,-1,-1]","[-1,-1,-1]",0,http://www.city.kashiwara.osaka.jp/docs/2014081800211/
+22,羽曳野市,"[40,1,200]","[40,1,200]","[40,1,200]","[42,2,200]","[20,2,200]","[-1,-1,-1]","[-1,-1,-1]",1,https://www.city.habikino.lg.jp/serch/kenko/6470.html
+23,門真市,"[50,1,200]","[40,1,200]","[40,1,200]","[40,2,200]","[20,2,200]","[-1,-1,-1]","[-1,-1,-1]",1,https://www.city.kadoma.osaka.jp/kenko_fukushi/kenko/2/index.html
+24,摂津市,"[40,1,200]","[40,1,200]","[40,1,200]","[40,2,200]","[20,2,200]","[50,1,200]","[-1,-1,-1]",1,https://www.city.settsu.osaka.jp/soshiki/hokenfukushibu/hokenfukushika/kensin/gankenshin/index.html
+25,高石市,"[40,1,200]","[40,1,200]","[40,1,200]","[40,1,200]","[20,2,200]","[-1,-1,-1]","[-1,-1,-1]",1,https://www.city.takaishi.lg.jp/kakuka/fukushi_hoken/chiikihoukatukeasuishin_ka/otonanokenkouzukuri/kakushu_gankenshin/1586919674045.html
+26,藤井寺市,"[40,1,200]","[40,1,200]","[40,1,200]","[40,2,200]","[20,2,200]","[-1,-1,-1]","[-1,-1,-1]",1,https://www.city.fujiidera.lg.jp/soshiki/kenkou_fukushi/kenko/kakusyukenshin/1388033779705.html
+27,東大阪市,"[40,1,200]","[40,1,200]","[40,1,200]","[40,2,200]","[20,2,200]","[-1,-1,-1]","[-1,-1,-1]",1,https://www.city.higashiosaka.lg.jp/0000009395.html
+28,泉南市,"[50,1,200]","[40,1,200]","[40,1,200]","[40,2,200]","[20,2,200]","[-1,-1,-1]","[-1,-1,-1]",1,https://www.city.sennan.lg.jp/kakuka/kenkoukodomo/hokensuishin/hokensuishin/kenkozukuri/kenshin/index.html
+29,四条畷市,"[50,1,200]","[40,1,100]","[40,1,200]","[40,2,200]","[20,2,200]","[-1, -1, -1]","[-1, -1, -1]",1,https://www.city.shijonawate.lg.jp/site/shinsei-navi/8055.html
+30,交野市,"[40,1,200]","[40,1,200]","[40,1,200]","[40,1,200]","[20,1,200]","[-1, -1, -1]","[-1, -1, -1]",1,https://www.city.katano.osaka.jp/docs/2021102000055/
+31,大阪狭山市,"[40,1,200]","[40,1,200]","[40,1,200]","[40,1,200]","[20,1,200]","[50,1,200]","[-1, -1, -1]",0,http://www.city.osakasayama.osaka.jp/iryo_fukushi/kenko/kakushukenshinkenshin/1411009772359.html
+32,阪南市,"[40,1,200]","[40,1,200]","[40,1,200]","[40,2,200]","[20,2,200]","[-1, -1, -1]","[-1, -1, -1]",1,https://www.city.hannan.lg.jp/life_event/kenkou_iryou_hoken/kenshin/index.html
+33,島本町,"[40,1,200]","[30,1,200]","[40,1,200]","[40,2,200]","[20,2,200]","[40,1,74]","[-1, -1, -1]",1,https://www.town.shimamoto.lg.jp/uploaded/attachment/7592.pdf
+34,豊能町,"[40,1,200]","[40,1,200]","[40,1,200]","[40,2,200]","[20,2,200]","[-1, -1, -1]","[-1, -1, -1]",1,https://www.town.toyono.osaka.jp/page/page005876.html
+35,能勢町,"[40,1,200]","[40,1,200]","[40,1,200]","[40,2,200]","[20,2,200]","[-1, -1, -1]","[-1, -1, -1]",1,https://www.town.tajiri.osaka.jp/kenko_fukushi_kosodate/iryo_kenko/kenkoshinsa/1823.html
+36,忠岡町,"[40,1,200]","[40,1,200]","[40,1,200]","[40,1,200]","[20,1,200]","[50,1,200]","[-1, -1, -1]",1,https://www.town.tadaoka.osaka.jp/kenko_fukushi/iryo_kenko/kenko_shinsa/index.html
+37,熊取町,"[40,1,200]","[40,1,200]","[40,1,200]","[40,2,200]","[20,2,200]","[50,1,200]","[-1, -1, -1]",1,https://www.town.kumatori.lg.jp/kenko/kenko_iryo/keishin/index.html
+38,田尻町,"[40,1,200]","[40,1,200]","[40,1,200]","[40,2,200]","[20,2,200]","[-1, -1, -1]","[-1, -1, -1]",1,https://www.town.tajiri.osaka.jp/kenko_fukushi_kosodate/iryo_kenko/kenkoshinsa/1823.html
+39,岬町,"[40,1,200]","[40,1,200]","[40,1,200]","[40,2,200]","[20,2,200]","[-1, -1, -1]","[-1, -1, -1]",1,http://www.town.misaki.osaka.jp/kurashi/kenkou/kenko/seijin/1550.html
+40,太子町,"[40,1,200]","[40,1,200]","[40,1,200]","[40,2,200]","[20,2,200]","[-1, -1, -1]","[-1, -1, -1]",1,https://www.town.taishi.osaka.jp/busyo/kenkoufukusibu/ikiikikenkou/monthly_kenko_info/1383041687670.html
+41,河南町,"[40,1,200]","[40,1,200]","[40,1,200]","[40,2,200]","[20,2,200]","[50,2,200]","[-1, -1, -1]",1,https://www.town.kanan.osaka.jp/kenko_fukushi/iryo_kenko/2/3246.html
+42,千早赤阪村,"[40,1,200]","[40,1,200]","[40,1,200]","[40,2,200]","[20,1,200]","[-1, -1, -1]","[-1, -1, -1]",1,https://www.vill.chihayaakasaka.osaka.jp/material/files/group/9/R5ganannnai.pdf
