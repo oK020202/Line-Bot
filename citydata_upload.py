@@ -24,12 +24,12 @@ dynamodb = boto3.resource(
 """
 # テーブル名の設定
 """
-table_name = "Cities_20231001"
+table_name = "Cities_20240426"
 table_city = dynamodb.Table(table_name)
 
 
 # csvデータの指定
-csv_file = "examination_data_20231001.csv"
+csv_file = "examination_data_20240426.csv"
 
 def create_table(table_name):
     table = dynamodb.create_table(

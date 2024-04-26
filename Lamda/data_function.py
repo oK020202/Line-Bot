@@ -12,7 +12,8 @@ from datetime import timedelta
 #ユーザデータベース
 table = boto3.resource('dynamodb').Table('Users')
 #市町村データベース
-table_city = boto3.resource('dynamodb').Table('Cities')
+#table_city = boto3.resource('dynamodb').Table('Cities')
+table_city = boto3.resource('dynamodb').Table('Cities_20240426') ## 変更した場合は、lambda_function.pyのupdate_comment変数の文字列も変更する。
 #重複実行防止用データベース
 table_event = boto3.resource('dynamodb').Table('eventHistory')
 
