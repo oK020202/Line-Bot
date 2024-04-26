@@ -11,18 +11,20 @@ from PIL import Image, ImageDraw, ImageFont
 import data_function # DynamoDBに送信するための関数のパッケージ
 import image_function # S3と画像をやり取りするための関数パッケージ
 
+updated_comment = "(2024/4 情報更新)"
+
 # ログ取得の設定
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
 # 推奨グレード画像
-grade_info_image = "Ref Image Link"
+grade_info_image = "https://ganjipublic.s3.ap-northeast-3.amazonaws.com/grade_info.jpg"
 
 
 """
 テスト画像(S3)
 """
-testimage = "Test Image Link"
+testimage = "https://ganjiinstant.s3.ap-northeast-3.amazonaws.com/sample.png?response-content-disposition=inline&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0xIkcwRQIgMk%2Fwc2sF%2BfPVshTT8ZXGLUMRRwP7XiXti2mB%2BINHxRACIQC3Azhu7DFE8y8aUna%2F1qPglNbm3kXnPyG%2BoVqvWaD%2FNirtAgj7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDcxNDI5NjE1MzIxNiIM4KyyABLxlxO%2FS8AlKsEC5F%2BmP7nHWmxvTpE7Qpz%2BUrA850P7iDUhG0lrKKBDGUF24itR2nPMEHpS%2Fxy0H3SZa3t0S81GmxkH42YQvuPEiSaA%2Bmg9m0VHhN2m0X2p8JtmJz%2FemAGGE3RXtBc3gjZMES57ZemBnRC7Cy7lwmSZMUCr3SeioXk36ndCURzdE9r6K38Jqg55KztQQQNpvaV%2BUwFhoYbnyePzf9Y%2FSdfZgw1cKKhBx6wskkgVyqEH1mYxgQBC6Um4IIZWnykpV1efN3hrorczcbtYpy0IIenznDBf34MhHHc%2Bf5YUu4OZYZfanXc7KejHsPWeSgQwpAFYKKlocIZBrK4J51CJ%2FUtcXz8AMjDBwZ5d4iKRsJK0iQRU1pRRBGdVeM8Vi%2BZZweSGxYr1BJbQU4u28PnkqZT8kjaOrxHTYUbuk%2ByzYxhafwLJMPCaq5gGOrMCGOm%2F83fLk7HFG%2FGtnPHjHcs8NhPtvTd6EuaAlvoi9Uwt%2BvN8tBbKw09Ez6732DDi%2Fp6bXsX9qErXh%2B%2Bsobsdu1SSSSaaUfmAHkiII5iCc9kJzb1O2dNqLHguUXZMsHCwW0r7EneH%2FG8ZqDpulgygcze8v0DdN9qlTEnBbwt427%2BL1sc6sx3ZWxL8K3DI%2BRiPwk%2BJs7ryVfQfGd2Pm845ME2Ja68534Nmgu6JfyZafc1tFanjrQs2yhqx1EuVem4BXIUjbHeSJEPxQ55XMLDaGsS4g3o4VWeDyiqs4ofdNbWiqu7sNgRTI8fxPmyHW2KoWC0iwjJ8wlnUYQlj5YZk2hCVR2is45qnzK7Yx5dBkkwEFRp%2Fmz798LfPB9%2F8KvKMIrSqPBi8bF7RRzokDfDIn0C2pA%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220828T023659Z&X-Amz-SignedHeaders=host&X-Amz-Expires=43200&X-Amz-Credential=ASIA2MT26KSAE7PN7G6X%2F20220828%2Fap-northeast-3%2Fs3%2Faws4_request&X-Amz-Signature=ef5432a54b7647693da2f95b6cf4eb36012bb75d5865759322c107a062405ffb"
 
 """
 自治体名ID・がんID
@@ -1008,7 +1010,7 @@ city_ask_carousel = {
                                     "action": {
                                       "type": "postback",
                                       "label": "千早赤阪村",
-                                      "data": "42",
+                                      "data": "localgov, 42",
                                       "displayText": "千早赤阪村"
                                     },
                                     "style": "primary",
@@ -1578,12 +1580,12 @@ def create_image(inform_data):
     """
     # フォントデータをS3から取得
     s3 = boto3.client('s3')
-    response = s3.get_object(Bucket="ganjiinstant", Key="TTF File")
+    response = s3.get_object(Bucket="ganjiinstant", Key="sawarabi-mincho-medium.ttf")
     font_data = io.BytesIO(response['Body'].read())
     
     
     # 今日の日付、年齢、性別、自治体の書き込み
-    info_text = inform_data["today"] + "時点・" + str(inform_data["age"]) + "歳・" + inform_data["sex"]+ "・" + inform_data["address"] + "在住" # 日付・年齢・性別・居住地の情報
+    info_text = inform_data["today"] + "時点・" + str(inform_data["age"]) + "歳・" + inform_data["sex"]+ "・" + inform_data["address"] + "在住"+updated_comment # 日付・年齢・性別・居住地の情報
     print(info_text)
     font = ImageFont.truetype(font_data, 28)  # フォント・サイズの指定
     draw = ImageDraw.Draw(image)  # Drawオブジェクトを生成  
