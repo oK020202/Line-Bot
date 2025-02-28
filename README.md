@@ -1,5 +1,5 @@
 # がん検診を通知するLINE Bot "がんじぃ"
-## Ganji -LINE Bot
+## Ganji - LINE Messaging Bot to notify available cancer checks by local government.
 父が癌を罹ったことをきっかけに、自治体実施のがん検診をお知らせするLINE bot「がんじぃ」を制作しました。自治体主催のがん検診は安価に受けられる一方、自治体によって受診対象の条件が異なり、また受診日を忘れやすいという問題があります。そこで本LINE botは生年月日・性別・自治体を登録することで、年に2度、受診可能ながん検診をお知らせします。2023年1月には大阪府後援のもとプレスリリースを発表しました。(テクノ愛2022 健闘賞)
 
 After my father was diagnosed with cancer, I created a LINE bot called 'Ganjie' to inform people about cancer screening organised by local authorities. While cancer screening organised by local authorities is inexpensive, the conditions for eligibility differ from municipality to municipality and it is easy to forget the date of the screening. In January 2023, a press release was issued under the auspices of the Osaka Prefectural Government, and we are currently working on publicity activities. (Techno Ai 2022, Good Work Award)
