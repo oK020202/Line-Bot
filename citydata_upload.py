@@ -1,13 +1,16 @@
+# csv_test.pyでエラーが出ないことを確認してからアップロードすること。
+
 # 年度ごとの新しい検診データのアップロード用関数
 # csvはスプレッドシートのフォーマットをcsvでダウンロードしたものを使用 "https://docs.google.com/spreadsheets/d/1Yk9nq6gZi3DorafkZkiQZKgUN9yRICs7LP3byn7AGLo/edit#gid=0"
 # 新しいテーブルを作成後、Lambdaのdata_function.pyで参照しているCitiesテーブルを変更する。
+
 
 import boto3
 import csv
 import ast
 import time
 
-import credentials
+import credentials # credentials.pyをインポート
 
 # アクセスキーの取得
 access_key = credentials.access_key
@@ -24,12 +27,12 @@ dynamodb = boto3.resource(
 """
 # テーブル名の設定
 """
-table_name = "Cities_20240426"
+table_name = "Cities_20250411"
 table_city = dynamodb.Table(table_name)
 
 
 # csvデータの指定
-csv_file = "examination_data_20240426.csv"
+csv_file = "examination_data_20250411.csv"
 
 def create_table(table_name):
     table = dynamodb.create_table(
